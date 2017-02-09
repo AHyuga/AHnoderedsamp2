@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: AHnoderedsamp2
+  host: AHnoderedsample2
+  disk_quota: 1024M
+  services:
+  - dashDB for Analytics-fv
+  - AHnoderedsamp2-cloudantNoSQLDB
